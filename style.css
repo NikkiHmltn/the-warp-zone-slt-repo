@@ -1,0 +1,129 @@
+
+@font-face {
+    font-family: gameFont;
+    src: url(pics/arcadeclassic.regular.ttf);
+}
+
+.pillar-left {
+    min-width: 100px;
+    margin: auto;
+    padding: 10px;
+    float: left;
+    clear: both;
+    min-height: 1000px;;
+    max-height: 1900px;
+    background-image: url("pics/warpwall.jpg");
+    background-repeat: repeat-y;
+
+}
+
+.dropdown {
+    text-align: center;
+    color: #2CB01A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px #2CB01A dotted;
+    width: 700px;
+    margin-left: 380px;
+    
+}
+
+.content {
+    max-width: 900px;
+    background-color: black;
+    margin: auto;
+    padding: 10px;
+    /* display: flex;
+    align-items: center;
+    justify-items: center; */
+}
+
+.background {
+    background-color: black;
+    
+}
+
+.top {
+    
+    position: absolute;
+    top: 0px;
+    background-color: black;
+
+}
+.warp-logo {
+    height: 100px;
+    width: auto;
+    z-index: 1;
+}
+
+.firstPic {
+    position: relative;
+    display: block;
+    margin: auto;
+    height: 400px;
+    width: auto;
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px #2CB01A dotted;
+
+}
+
+h2 {
+    color: white;
+    font-family: gameFont;
+    word-spacing: 10px;
+    text-align: center;
+}
+
+p {
+    color: white;
+    
+}
+
+.thumbnail {
+    position: relative;
+    width: auto;
+    height: 150px;
+    float: left;
+    margin-right: 10px;
+}
+
+.thumbnail, .text {
+    font-family: gameFont;
+    font-size: 30px;
+}
+
+.hello {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 4em;
+    margin: 20px;
+    text-align: center;
+}
+
+.container-bottom {
+    background-color: #2CB01A;
+    margin: 8em;
+}
+.callNow {
+    text-align: center;
+}
+
+.mario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.map {
+    max-width: 800px;
+    height: auto;
+    border: dotted #2CB01A 2px;
+    padding: 15px;
+    margin: 10px;
+
+}
+
+
